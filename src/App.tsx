@@ -3,10 +3,15 @@ import * as React from "react"
 export class App extends React.Component {
 
   render() {
+    debugger;
     return (
-      <React.Fragment>
+      <>
         <h1>Hello</h1>
-      </React.Fragment>
+
+        <p>
+          This app has zero config
+        </p>
+      </>
     )
   }
 }
